@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src = "wallpaper.js"> </script>
+    <title>H Wallpaper Generator</title>
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+    <link rel="icon" type="image/png" href="/favicon.png">
+</head>
+<body>
+    <header>
+        <script defer src = "nav.js"> </script>
+        <div class = logo>
+            <img src="/htools.png" height="70px">
+        </div>
+        <nav>
+            <ul class = "nav_links">
+                <div class = "navbox">
+                    <a href ="/wallpaper.html">H Wallpaper Generator</a>
+                </div>
+                <div class = "navbox">
+                    <a href ="/index.html">Home</a>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class = boxouter>
+            <div class="box">
+                <h1>H Wallpaper Generator</h1>
+                <div class = cellrow>
+                    <div class = cellcol>
+                        <div class = cellrow>
+                            Length:
+                            <input type = "number" min="1" value = "50" id = "x">
+                        </div>
+                        <div class = cellrow>
+                            Height:
+                            <input type = "number" min="1" value = "50" id = "y">
+                        </div>
+                        </div>
+                        <div id="buttons">
+                            <button id="convert">Generate</button>
+                        </div>
+                        </div>
+                        <div class = cellcol>
+                            <h2 >Output</h2>
+                            <canvas hidden id = "canvas1"></canvas>
+                            <img id = "hello" src = "h.png" class = "big">
+                            <a href="h.png" id = "hello2" download="H_50x50px.png">
+                                <button>Download Image</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</main>
+</body>
+</html>
