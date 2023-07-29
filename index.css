@@ -9,7 +9,7 @@ body {
     image-rendering: pixelated;
     min-width: 45%;
     min-height: 150px;
-    max-height: 750px;
+    max-height: 650px;
     margin-bottom: 20px;
     object-fit: contain;
     object-position: left;
