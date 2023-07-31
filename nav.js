@@ -5,13 +5,13 @@ var navbar = `
     <nav>
         <ul class = "nav_links">
             <div class = "navbox">
-                <a href ="/wallpaper.html">H Wallpaper Generator</a>
+                <a href ="/wallpaper">H Wallpaper Generator</a>
             </div>
             <div class = "navbox">
-                <a href ="/index.html">Home</a>
+                <a href ="/">Home</a>
             </div>
             <div class = "navbox">
-                <a href ="/about.html">About</a>
+                <a href ="/about">About</a>
             </div>
         </ul>
     </nav>`;
