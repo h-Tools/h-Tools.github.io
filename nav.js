@@ -4,19 +4,19 @@ var navbar = `
     </div>
     <nav>
         <div class = "navbox">
-            <a href = "/nav.html">
+            <a href = "/nav">
                 <img src="/nav.png" class = "icon">
             </a>
         </div>
         <ul class = "nav_links">
             <div class = "navbox">
-                <a href ="/wallpaper.html">H Wallpaper Generator</a>
+                <a href ="/wallpaper">H Wallpaper Generator</a>
             </div>
             <div class = "navbox">
-                <a href ="/index.html">Home</a>
+                <a href ="/">Home</a>
             </div>
             <div class = "navbox">
-                <a href ="/about.html">About</a>
+                <a href ="/about">About</a>
             </div>
         </ul>
     </nav>`;
