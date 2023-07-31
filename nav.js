@@ -3,15 +3,20 @@ var navbar = `
         <img src="/htools.png">
     </div>
     <nav>
+        <div class = "navbox">
+            <a href = "/nav.html">
+                <img src="/nav.png" class = "icon">
+            </a>
+        </div>
         <ul class = "nav_links">
             <div class = "navbox">
-                <a href ="/wallpaper">H Wallpaper Generator</a>
+                <a href ="/wallpaper.html">H Wallpaper Generator</a>
             </div>
             <div class = "navbox">
-                <a href ="/">Home</a>
+                <a href ="/index.html">Home</a>
             </div>
             <div class = "navbox">
-                <a href ="/about">About</a>
+                <a href ="/about.html">About</a>
             </div>
         </ul>
     </nav>`;
@@ -23,3 +28,8 @@ for (var i = 0; i < document.links.length; i++) {
     }
 }
 document.links[current].className = 'active';
+
+$(".navbox").click(function() {
+    window.location = $(this).find("a").attr("href"); 
+    return false;
+  });
