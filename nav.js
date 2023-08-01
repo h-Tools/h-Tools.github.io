@@ -4,7 +4,7 @@ var navbar = `
     </div>
     <nav>
         <div class = "navbox">
-            <a href = "/nav">
+            <a href = "/">
                 <img src="/nav.png" class = "icon">
             </a>
         </div>
@@ -13,7 +13,7 @@ var navbar = `
                 <a href ="/wallpaper">H Wallpaper Generator</a>
             </div>
             <div class = "navbox">
-                <a href ="/">Home</a>
+                <a href ="/home">Home</a>
             </div>
             <div class = "navbox">
                 <a href ="/about">About</a>
