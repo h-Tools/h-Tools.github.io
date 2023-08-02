@@ -34,7 +34,6 @@ for (var i = 0; i < document.links.length; i++) {
 }
 if (document.URL === "https://h-tools.github.io/") {
     iconbox.remove();
-    navbar.className = 'navindex';
 }
 if ((document.URL !== "https://h-tools.github.io/nav") || (document.URL !== "https://h-tools.github.io")) {
         document.links[current].className = 'active';
