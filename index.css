@@ -286,6 +286,9 @@ nav a{
     main {
         width:100vw;
     }
+    .logo {
+        transform: translate(-10px);
+    }
 }
 @media (max-width:700px) {
     .preview h3 {
@@ -300,6 +303,7 @@ nav a{
     .preview {
         height: 90vw;
         margin-right:0;
+        margin-bottom:-3px;
     }
     .preview h3 {
         font-size: 6vw;
