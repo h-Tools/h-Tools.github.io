@@ -23,7 +23,7 @@ var icon = document.getElementsByClassName("icon")[0];
 for (var i = 0; i < document.links.length; i++) {
     if (document.links[i].href === document.URL) {
         current = i;
-        if (document.links[i].class = "navbox nav2") {
+        if (document.links[i].class === "navbox nav2") {
             icon.src = "/navactive.png";
             document.links[i].href = "javascript:history.back()"
         }
