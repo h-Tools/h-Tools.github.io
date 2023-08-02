@@ -23,13 +23,15 @@ var icon = document.getElementsByClassName("icon")[0];
 for (var i = 0; i < document.links.length; i++) {
     if (document.links[i].href === document.URL) {
         current = i;
+        if (document.links[i].href === "https://h-tools.github.io/nav") {
+            icon.src = "/navactive.png";
+            document.links[current].href = "javascript:history.back()"
+        }
     }
 }
-if (document.links[current].class === "navbox nav2") {
-    icon.src = "/navactive.png";
-    document.links[current].href = "javascript:history.back()"
+if (document.links[current].href !== "https://h-tools.github.io/nav") {
+        document.links[current].className = 'active';
 }
-document.links[current].className = 'active';
 
 $(".navbox").click(function() {
     window.location = $(this).find("a").attr("href"); 
