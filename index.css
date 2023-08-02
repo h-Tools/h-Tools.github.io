@@ -175,8 +175,10 @@ nav a{
 }
 .preview img {
   width: 100%;
-  image-rendering: pixelated;
   object-fit: contain;
+}
+.pixelate {
+  image-rendering: pixelated;
 }
 .navgrid-outer {
     justify-content:center;
