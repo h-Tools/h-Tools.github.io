@@ -33,7 +33,7 @@ for (var i = 0; i < document.links.length; i++) {
 if ((document.links[i].href === "https://h-tools.github.io/nav") && (document.URL = "https://h-tools.github.io"))
     iconbox.remove()
 }
-if (document.links[current].href !== "https://h-tools.github.io/nav") {
+if ((document.URL !== "https://h-tools.github.io/nav") || (document.URL !== "https://h-tools.github.io")) {
         document.links[current].className = 'active';
 }
 
