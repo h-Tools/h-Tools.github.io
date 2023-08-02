@@ -17,29 +17,31 @@
     <header id = "header">
     </header>
     <main>
-        <h1>H Wallpaper Generator</h1>
-        <div class = cellrow>
-            <div class = cellcol>
-                <div class = cellrow>
-                    Length:
-                    <input type = "number" min="1" value = "50" id = "x">
-                </div>
-                <div class = cellrow>
-                    Height:
-                    <input type = "number" min="1" value = "50" id = "y">
-                </div>
-                </div>
-                <div id="buttons">
-                    <button id="convert">Generate</button>
-                </div>
-                </div>
+        <div class = "boxinner">
+            <h1>H Wallpaper Generator</h1>
+            <div class = cellrow>
                 <div class = cellcol>
-                    <h2 >Output</h2>
-                    <canvas hidden id = "canvas1"></canvas>
-                    <img id = "hello" src = "h.png" class = "big">
-                    <a href="h.png" id = "hello2" download="H_50x50px.png">
-                        <button>Download Image</button>
-                    </a>
+                    <div class = cellrow>
+                        Length:
+                        <input type = "number" min="1" value = "50" id = "x">
+                    </div>
+                    <div class = cellrow>
+                        Height:
+                        <input type = "number" min="1" value = "50" id = "y">
+                    </div>
+                    </div>
+                    <div id="buttons">
+                        <button id="convert">Generate</button>
+                    </div>
+                    </div>
+                    <div class = cellcol>
+                        <h2 >Output</h2>
+                        <canvas hidden id = "canvas1"></canvas>
+                        <img id = "hello" src = "h.png" class = "big">
+                        <a href="h.png" id = "hello2" download="H_50x50px.png">
+                            <button>Download Image</button>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

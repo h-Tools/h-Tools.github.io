@@ -3,8 +3,8 @@ var navbar = `
         <img src="/htools.png">
     </div>
     <nav>
-        <div class = "navbox">
-            <a href = "/">
+        <div class = "navbox nav2">
+            <a href = "/nav">
                 <img src="/nav.png" class = "icon">
             </a>
         </div>
@@ -13,18 +13,20 @@ var navbar = `
                 <a href ="/wallpaper">H Wallpaper Generator</a>
             </div>
             <div class = "navbox">
-                <a href ="/home">Home</a>
-            </div>
-            <div class = "navbox">
                 <a href ="/about">About</a>
             </div>
         </ul>
     </nav>`;
 document.getElementById("header").innerHTML = navbar;
 const active = 0;
+var icon = document.getElementsByClassName("icon")[0];
 for (var i = 0; i < document.links.length; i++) {
     if (document.links[i].href === document.URL) {
         current = i;
+        if (document.links[i].class = "navbox nav2") {
+            icon.src = "/navactive.png";
+            document.links[i].href = "javascript:history.back()"
+        }
     }
 }
 document.links[current].className = 'active';
