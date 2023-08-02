@@ -30,6 +30,7 @@ for (var i = 0; i < document.links.length; i++) {
             document.links[current].href = "javascript:history.back()"
         }
     }
+    }
 if (document.URL === "https://h-tools.github.io") {
     iconbox.remove()
 }
