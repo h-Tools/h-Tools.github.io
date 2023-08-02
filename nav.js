@@ -21,8 +21,8 @@ document.getElementById("header").innerHTML = navbar;
 const active = 0;
 let current = 0;
 var icon = document.getElementsByClassName("icon")[0];
+var iconbox = document.getElementsByClassName("nav2")[0];
 for (var i = 0; i < document.links.length; i++) {
-    console.log(document.links[i].href);
     if (document.links[i].href === document.URL) {
         current = i;
         if (document.links[i].href === "https://h-tools.github.io/nav") {
@@ -30,6 +30,8 @@ for (var i = 0; i < document.links.length; i++) {
             document.links[current].href = "javascript:history.back()"
         }
     }
+if ((document.links[i].href === "https://h-tools.github.io/nav") && (document.URL = "https://h-tools.github.io"))
+    iconbox.remove()
 }
 if (document.links[current].href !== "https://h-tools.github.io/nav") {
         document.links[current].className = 'active';
