@@ -260,6 +260,15 @@ nav a{
         width: 60px;
         margin-left:12.5px;
     }
+    .navindex {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        width: 0px;
+        margin-left:0;
+    }
     header {
         justify-content: center;
         display: flex;
