@@ -23,11 +23,11 @@ var icon = document.getElementsByClassName("icon")[0];
 for (var i = 0; i < document.links.length; i++) {
     if (document.links[i].href === document.URL) {
         current = i;
-        if ((document.links[i].class === "navbox nav2") && (document.links[i].href === document.URL)) {
-            icon.src = "/navactive.png";
-            document.links[i].href = "javascript:history.back()"
-        }
     }
+}
+if (document.links[current].class === "navbox nav2") {
+    icon.src = "/navactive.png";
+    document.links[current].href = "javascript:history.back()"
 }
 document.links[current].className = 'active';
 
