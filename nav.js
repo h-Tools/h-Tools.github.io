@@ -23,6 +23,7 @@ var icon = document.getElementsByClassName("icon")[0];
 for (var i = 0; i < document.links.length; i++) {
     if (document.links[i].href === document.URL) {
         current = i;
+        console.log(document.links[i].href)
         if (document.links[i].href === "https://h-tools.github.io/nav") {
             icon.src = "/navactive.png";
             document.links[current].href = "javascript:history.back()"
