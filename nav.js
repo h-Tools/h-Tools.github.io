@@ -31,8 +31,7 @@ for (var i = 0; i < document.links.length; i++) {
         }
     }
 }
-console.log(document.URL);
-if (document.URL === "https://h-tools.github.io") {
+if (document.URL === "https://h-tools.github.io/") {
     iconbox.remove();
 }
 if ((document.URL !== "https://h-tools.github.io/nav") || (document.URL !== "https://h-tools.github.io")) {
