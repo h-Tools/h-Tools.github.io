@@ -21,7 +21,7 @@ document.getElementById("header").innerHTML = navbar;
 const active = 0;
 let current = 0;
 var icon = document.getElementsByClassName("icon")[0];
-var navbar = document.getElementById("navbar");
+var navbar = document.getElementsById("navbar");
 var iconbox = document.getElementsByClassName("nav2")[0];
 for (var i = 0; i < document.links.length; i++) {
     if (document.links[i].href === document.URL) {
@@ -33,7 +33,7 @@ for (var i = 0; i < document.links.length; i++) {
     }
 }
 if (document.URL === "https://h-tools.github.io/") {
-    iconbox.remove();
+    iconbox.remove()
     navbar.className = 'navindex';
 }
 if ((document.URL !== "https://h-tools.github.io/nav") || (document.URL !== "https://h-tools.github.io")) {
