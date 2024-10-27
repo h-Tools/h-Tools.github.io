@@ -4,16 +4,16 @@ var navbar = `
     </div>
     <nav id = "navbar">
         <div class = "navbox nav2">
-            <a href = "/nav">
+            <a href = "https://h-tools.github.io/nav">
                 <img src="/nav.png" class = "icon">
             </a>
         </div>
         <ul class = "nav_links">
             <div class = "navbox">
-                <a href ="/wallpaper">H Wallpaper Generator</a>
+                <a href ="https://h-tools.github.io/wallpaper">H Wallpaper Generator</a>
             </div>
             <div class = "navbox">
-                <a href ="/about">About</a>
+                <a href ="https://h-tools.github.io/">About</a>
             </div>
         </ul>
     </nav>`;
