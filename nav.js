@@ -13,7 +13,7 @@ var navbar = `
                 <a href ="https://h-tools.github.io/wallpaper">H Wallpaper Generator</a>
             </div>
             <div class = "navbox">
-                <a href ="https://h-tools.github.io/">About</a>
+                <a href ="https://h-tools.github.io/about">About</a>
             </div>
         </ul>
     </nav>`;
